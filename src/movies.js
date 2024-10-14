@@ -8,6 +8,7 @@ const movies_ = [
     image_url:
       "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQovCe0H45fWwAtV31ajOdXRPTxSsMQgPIQ3lcZX_mAW0jXV3kH",
     rating: 8.8,
+    trailerlink: "https://www.youtube.com/embed/YoHD9XEInc0",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const movies_ = [
     image_url:
       "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRipfEoI8fb4qxidki3e_kp3fr_Kopvoi2yCKcpJGf2ngnKweMR",
     rating: 9.3,
+    trailerlink: "https://www.youtube.com/embed/6hB3S9bIaco",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const movies_ = [
     image_url:
       "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkUywIUXDjHSQJIaNHYVs08osgBpF5Ot-xmB_omyEZeeRP9Xug",
     rating: 9.0,
+    trailerlink: "https://www.youtube.com/embed/EXeTwQWrcwY",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const movies_ = [
     image_url:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj6_ot-pRVfLMtc2vyguVf_0m0HUuvdBw2I-EuFXkUIEB_eoAS",
     rating: 8.9,
+    trailerlink: "https://www.youtube.com/embed/s7EdQ4FqbhY",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ const movies_ = [
     image_url:
       "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcScf5su68o8oOp0D89ESlb3_8RW2ge3ZWIPFv_OBVSObb680o3H",
     rating: 8.8,
+    trailerlink: "https://www.youtube.com/embed/XHhAG-YLdk8",
   },
 ];
 

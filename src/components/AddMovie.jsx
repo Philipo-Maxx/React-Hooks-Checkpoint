@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 
 const AddMovie = ({ onAddMovie }) => {
@@ -7,10 +7,19 @@ const AddMovie = ({ onAddMovie }) => {
     description: "",
     rating: "",
     url: "",
+    trailerlink: "",
   });
   const handleOnClick = (e) => {
     e.preventDefault();
     onAddMovie(newMovies);
+    changeMovies({
+      title: "",
+      description: "",
+      rating: "",
+      url: "",
+      trailerlink: "",
+    });
+    //toast.success("Movie Added Successfully");
   };
   return (
     <form
@@ -79,6 +88,22 @@ const AddMovie = ({ onAddMovie }) => {
           value={newMovies.url}
           onChange={(e) => {
             changeMovies({ ...newMovies, url: e.target.value });
+          }}
+          className="bg-warning rounded border-0 p-1 mb-1"
+        />
+      </div>
+      <div
+        style={{ display: "flex", justifyContent: "space-between" }}
+        className="align-items-center"
+      >
+        <label htmlFor="">Trailer Link</label>
+        <input
+          type="text"
+          placeholder="Trailer Link"
+          style={{ width: "80%" }}
+          value={newMovies.trailerlink}
+          onChange={(e) => {
+            changeMovies({ ...newMovies, trailerlink: e.target.value });
           }}
           className="bg-warning rounded border-0 p-1"
         />
